@@ -1,0 +1,41 @@
+// <ColorPicker/>
+const ColorPicker = React.createClass({
+  getInitialState () {
+    return {
+      color: ''
+    }
+  },
+  
+  changeColor (event) {
+    this.setState({
+      color: event.target.value
+    });
+  },
+
+  render () {  
+    let backgroundStyles = {
+      background: this.state.color
+    };
+ 
+    return (      
+      <div style={backgroundStyles} className="background">
+        <Input 
+          className="center input" 
+          onChange={this.changeColor} 
+          placeholder="Type a color..."
+        />
+      </div>
+    )
+  }
+})
+
+// <Input/>
+const Input = React.createClass({
+  render () {
+    return (      
+      <input type="text" {...this.props} />
+    )
+  }
+})
+
+ReactDOM.render(<ColorPicker/>, document.querySelector('#app'));

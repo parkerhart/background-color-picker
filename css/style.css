@@ -1,0 +1,44 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: #c0ffee;
+}
+
+.input {
+  width: 300px;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #30332E;
+  border: none;
+  border-bottom: 5px solid #30332E;
+  background: none;
+  outline: none;
+  webkit-tap-highlight-color: transparent;
+}
+.input:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #30332E;
+}
+
+::-moz-placeholder {
+  color: #30332E;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #30332E;
+}
