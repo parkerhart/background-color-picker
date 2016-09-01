@@ -1,5 +1,5 @@
 ## Background Color Picker
-The sample can be viewed via surge.sh at http://raspy-downtown.surge.sh/
+The sample can be viewed via surge.sh at http://empty-death.surge.sh
 
 #### SNAGGED VIA CODEPEN
 > A Pen created at CodePen.io. You can find this one at http://codepen.io/parkerhart/pen/EgxNkj.
